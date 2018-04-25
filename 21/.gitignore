@@ -1,0 +1,4 @@
+#exclude everything .o and .exe
+ 
+/*.exe
+/*.o

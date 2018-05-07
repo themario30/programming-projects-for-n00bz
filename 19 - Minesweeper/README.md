@@ -1,10 +1,10 @@
-#Challenge 19 : Minesweeper
+# Challenge 19 : Minesweeper
 *MineSweeper* is the Game where you are tasked to find all the mines in a specific square grid. This is found by using the proximity numbers, which gives you an indication on how many mines are adjacent to that tile. Getting a number which gives you a zero is actually beneficial, as it explodes and shows you more proximity numbers.
 
-##What's the catch?
+## What's the catch?
 I'm going to have to write it in ``C`` *Pure*, **unadulterated**, __***C***__.
 
-##How will it work? How did you do it?
+## How will it work? How did you do it?
     1. One of the first things I did was to make sure I made an array of ``'-'``, to represent an empty grid. 
    
     2. After the matrix print has been done, I grabbed the rand function from ``stdlib.h`` to perform the randomness. I didn't use ``srand(time(NULL)))`` as it would make different results, and if I did something static, it should affect them all. Basically, dealing with the same field of mines to do test cases.
@@ -23,7 +23,7 @@ I'm going to have to write it in ``C`` *Pure*, **unadulterated**, __***C***__.
     
     7. Added a main menu, and that's about it.
     
-##Conclusion and After-Thoughts
+## Conclusion and After-Thoughts
 When my friend told me to write this code in *Pure*, **unadulterated**, __***C***__, I thought that it would be slightly annoying to write it up without using objects, etc. I sort of chickened-out and used structs, but hey, if there a rocket launcher in the game, it's part of the game. Developing the ``PROXIMITY MINE`` function was probably the most annoying, as I had to check every detail to see that it didn't have any syntax or human errors. I can probably highly optimize this script, seeing how 'crude and primitive' it all is.
 
 It was a fun challenge to do. I am liking this coding challenge and the various spins me and my friends put on there. Now that I am do these challenges like that, maybe the next challenge shall be difficult. Before I sign off though, I shall show you dreaded function which I had to design, as well as it's other function prototypes.

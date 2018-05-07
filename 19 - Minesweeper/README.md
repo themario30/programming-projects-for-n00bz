@@ -184,6 +184,6 @@ int checkPoints(struct Point Array[100], struct Point cPoint)
 }
 
 ```
-###May 7th, 2018
+### May 7th, 2018
 
 

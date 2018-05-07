@@ -3,7 +3,6 @@
 
 ##What's the catch?
 I'm going to have to write it in ``C`` *Pure*, **unadulterated**, __***C***__.
-<hr>
 
 ##How will it work? How did you do it?
     1. One of the first things I did was to make sure I made an array of ``'-'``, to represent an empty grid. 
@@ -23,8 +22,6 @@ I'm going to have to write it in ``C`` *Pure*, **unadulterated**, __***C***__.
     6.75 I created a function which loops through every struct in an array to reveal the neighbor. It also checks to see if the neighbor was also a 0's. This is where the genius part of the code comes in. When it finds a 0's, it first check to see if it exist in the Array, and if it doesn't, places that point into an array. I have a seperate index variable keeping track of the tail of the array. I've abritarily placed the array size to 100, but I figured that should be enough space. (__inb4 someone finds a bug with the code__)
     
     7. Added a main menu, and that's about it.
-    
-    <hr>
     
 ##Conclusion and After-Thoughts
 When my friend told me to write this code in *Pure*, **unadulterated**, __***C***__, I thought that it would be slightly annoying to write it up without using objects, etc. I sort of chickened-out and used structs, but hey, if there a rocket launcher in the game, it's part of the game. Developing the ``PROXIMITY MINE`` function was probably the most annoying, as I had to check every detail to see that it didn't have any syntax or human errors. I can probably highly optimize this script, seeing how 'crude and primitive' it all is.

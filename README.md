@@ -11,8 +11,6 @@ Last three digits of your post decide.
 
 Happy Rolling!
 
-<hr>
-
     <ol>
     <li>Name Generator
     <li>Higher or Lower / Heads or tails

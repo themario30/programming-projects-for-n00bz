@@ -11,7 +11,6 @@ Last three digits of your post decide.
 
 Happy Rolling!
 
-    <ol>
     <li>Name Generator
     <li>Higher or Lower / Heads or tails
     <li>Temperature Converter
@@ -112,7 +111,6 @@ Happy Rolling!
     <li>Little Man Computer Simulator
     <li>Basic LISP Interpreter
     <li>Hailstone Sequence
-    </ol>
 
 Challenge Tier
 ------------------------------
